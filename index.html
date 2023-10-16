@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--- <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="freeCodeCamp Accessibility Quiz practice project"
+    />
+    <title>Accessibility Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+
+  </head> -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Full Stack developer, here you will find information about the projects I have done." />
+  <meta property="og:description"
+    content="Full Stack developer, here you will find information about the projects I have done. " />
+  <meta property="og:title" content="Omar David Gaviria | Full Stack Developer" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Omar David Gaviria | iOS Developerr" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="apple-touch-icon" href="./assets/logo.png" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/logo-120x120.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo-16x16.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <link rel="stylesheet" href="skillsresponsive.css" /> -->
+
+  <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+  <!-- <script
+      src="https://kit.fontawesome.com/7b5fb2de65.js"
+      crossorigin="anonymous"
+      async
+    ></script> -->
+  <script src="https://kit.fontawesome.com/10148a1a83.js" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Omar Gaviria / Ing Automatización y Control</title>
+</head>
+
+
+
+<body>
+  <!--   <img
+      id="logo"
+      src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+    />
+     <h1>HTML/CSS Quiz</h1>-->
+  <!-- 
+    <nav>
+      <ul>
+        <li><a href="#student-info">Home</a></li>
+        <li><a href="#html-questions">About</a></li>
+        <li><a href="#css-questions">Portafolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> -->
+  <a href="https://api.whatsapp.com/send?phone=573117909929&text=%C2%A1Hola!%20Omar%20vi%20su%20CV%20en%20su%20p%C3%A1gina%20web"
+    class="btn-wsp" target="_blank">
+    <i class="fa fa-whatsapp icono"></i>
+
+  </a>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar__logo">
+        <!-- <p class="navbar__title">
+            <a href="#"></a>
+          </p> -->
+      </div>
+      <div class="navbar__menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="navbar__links">
+        <li class="navbar__link active" data-ref="home">
+          <a href="#home"><b>Home</b></a>
+        </li>
+        <li class="navbar__link" data-ref="about">
+          <a href="#about"><b>About</b></a>
+        </li>
+        <li class="navbar__link" data-ref="portfolio">
+          <a href="#portfolio"><b>Portfolio</b></a>
+        </li>
+        <li class="navbar__link" data-ref="contact">
+          <a href="#contact"><b>Contact</b></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!--- <nav>
+      <ul>
+          <li><a href="" class="nav-link">Home</a></li>
+          <li><a href="" class="nav-link">Products</a></li>
+          <li><a href="" class="nav-link">Contact Us</a></li>
+          <li><a href="" class="nav-link">About Us</a></li>
+      </ul>
+    </nav> -->
+
+
+  <section id="home" class="home">
+    <div class="home__background"></div>
+    <picture>
+      <source type="image/webp" srcset="./assets/profile.webp" />
+    </picture>
+    <div class="home__description">
+      <h1 class="home__title">Omar David Gaviria</h1>
+      <span class="home__title--secondary">Automation and Control Engineer</span>
+    </div>
+  </section>
+
+  </section>
+  <section id="about">
+    <div class="container">
+      <h2 class="section__title">About me</h2>
+      <div class="about__grid">
+        <div class="about__description">
+          <h2>Automation and Control Engineer / Programming Skills Technician with emphasis on web applications.</h2>
+          <p>
+            Hello, my name is Omar Gaviria. I am an automation and control engineer and programming skills technician
+            with a focus on web applications from Medellín, Colombia. Throughout my career, I have gained experience in
+            industrial automation, design and development of embedded systems, technical commercial consulting, and
+            consultative sales in engineering projects.
+          </p>
+
+          <p>
+            On my website, you will find detailed information about my education, skills, work experience, as well as
+            examples of projects.
+          </p>
+          <p>
+            Thank you for visiting my website, and I hope to collaborate with you soon.
+          </p>
+          <a class="button--cta" href="./assets/cv omargaviria 071223.pdf" download="Omar Gaviria CV" target="_blank"
+            rel="noopener noreferrer">
+            <i class="fas fa-file-download"></i>Download CV
+          </a>
+        </div>
+        <div class="about__skills">
+          <div class="skill__title">
+            <h2>Skills & Technologies</h2>
+          </div>
+          <div class="skill__item" id="item1">
+            <img src="./assets/automationb.png" alt="Automation icon" />
+            <div class="skill__name" id="sk1">
+              <p>Industrial Automation</p>
+            </div>
+          </div>
+          <div class="skill__item" id="item2">
+            <img src="./assets/embeded.png" alt="Embeded icon" />
+            <div class="skill__name" id="sk2">
+              <p> Embedded Systems </p>
+            </div>
+          </div>
+          <div class="skill__item" id="item3">
+            <img src="./assets/iot.png" alt="Iot icon" />
+            <div class="skill__name" id="sk3">
+              <p> IOT/IIOT</p>
+            </div>
+          </div>
+          <div class="skill__item" id="item4">
+            <img src="./assets/api.png" alt="Web icon" />
+            <div class="skill__name" id="sk4">
+              <p> Web Application Development </p>
+            </div>
+          </div>
+
+          <div class="skill__item" id="item5">
+            <img src="./assets/pnp.png" alt="Electronics icon" />
+            <div class="skill__name" id="sk5">
+              <p>A/D electronics and Low voltage electricity</p>
+            </div>
+          </div>
+
+          <div class="skill__item" id="item6">
+            <img src="./assets/sales.png" alt="Sales consultant" />
+            <div class="skill__name" id="sk6">
+              <p> Sales consultant </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <br>
+  <br>
+  <br><br> -->
+  <div class"clearfix"></div>
+  <section id="portfolio">
+    <div class="container">
+      <h2 class="section__title">Portfolio</h2>
+      <h3 class="section__subtitle">
+        Here you can see some of the projects I have worked on.
+      </h3>
+      <div class="portfolio__grid">
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/blog.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Blog</h3>
+            <p class="portfolio__description--text">
+              Web Application: MERN Stack(MongoDB,Express,React y Node JS).
+            </p>
+            <div class="buttons__container">
+              <a class="button" href="https://magnificent-khapse-6e4570.netlify.app" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://github.com/davidgaviria2021/Blog" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/pizzara.png " />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Menú Pizza AR</h3>
+            <p class="portfolio__description--text">Pizza menu app in augmented reality/App de menú de Pizzería en realidad aumentada </p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=68xNzzsC0Ao&t=2s " target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href=" " target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/pid.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Temperature Control Using PID</h3>
+            <p class="portfolio__description--text">
+              Microcontroller 16F877A programmed in C++
+            </p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=CXR2cYJmQbc&t=78s" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://www.youtube.com/watch?v=CXR2cYJmQbc&t=78s""
+                target=" _blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/moli.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Animatronic singer</h3>
+            <p class="portfolio__description--text">Microcontroller 16F877A programmed in C++ </p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=mWASxs3WRrE" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://www.youtube.com/watch?v=mWASxs3WRrE" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/tolva.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">
+              Shredding system
+            </h3>
+            <p class="portfolio__description--text">PLC Siemens S7 300</p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=uHXKDdZk1lc&t=11s" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://www.youtube.com/watch?v=uHXKDdZk1lc&t=11s" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/anddroidp.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Control de motor por medio de una interfaz de usuario en Android
+            </h3>
+            <p class="portfolio__description--text">Comunicación Bluetooth entre
+              Microcontrolador Microchip y interfaz en Android”</p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=2OkMq8BoiY8" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://www.youtube.com/watch?v=2OkMq8BoiY8" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/noel.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Máquina expendedora de galletas/Cookie vending machine"
+            </h3>
+            <p class="portfolio__description--text">Cookie vending machine, built with a Xinje PLC .Apologies for the
+              poor image quality
+            </p>
+            <div class="buttons__container">
+              <a class="button" href="https://www.youtube.com/watch?v=mtaD2nnZFUc" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://www.youtube.com/watch?v=mtaD2nnZFUc" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="./projects/cvreact.png" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Curriculum en React</h3>
+            <p class="portfolio__description--text">Web Application: REACT</p>
+            <div class="buttons__container">
+              <a class="button" href="https://taupe-churros-aec402.netlify.app" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="https://github.com/davidgaviria2021/Blog" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="portfolio__item">
+          <picture>
+            <source type="image/jpeg" srcset="" />
+            <img class="portfolio__img" alt="portfolio item" />
+          </picture>
+          <div class="portfolio__description">
+            <h3 class="portfolio__description--title">Dobladora</h3>
+            <p class="portfolio__description--text">Dobladora</p>
+            <div class="buttons__container">
+              <a class="button" href="" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-globe-americas"></i> Website
+              </a>
+              <a class="button" href="" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section__title">Contact</h2>
+      <h3 class="section__subtitle">
+        Contact me if you want us to work together.
+      </h3>
+      <div class="contact__grid">
+        <a href="mailto:omargaviria9@gmail.com" target="_blank" rel="noopener noreferrer">
+          <div class="contact__item">
+            <i class="far fa-envelope"></i>
+            <p>Mail Me</p>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/channel/UC1W9OO-tdRqMBiC0EN8ppww" target="_blank" rel="noopener noreferrer">
+          <div class="contact__item">
+
+            <i class="fa-brands fa-youtube"></i>
+            <p>Follow Me</p>
+          </div>
+        </a>
+        <a href="https://github.com/davidgaviria2021" target="_blank" rel="noopener noreferrer">
+          <div class="contact__item">
+            <i class="fab fa-github"></i>
+            <p>Follow Me</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/omar-david-gaviria-gonz%C3%A1lez-5bb83853/" target="_blank"
+          rel="noopener noreferrer">
+          <div class="contact__item">
+
+            <i class="fa-brands fa-linkedin"></i>
+            <p>Contact Me</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <main></main>
+  <footer class="footer">
+    <address>
+      <a href="#home">©2023 Omar Gaviria. All Rights Reserved</a>
+      <br /><br />
+
+    </address>
+  </footer>
+  <script async src="./index.js"></script>
+</body>
+
+</html>
